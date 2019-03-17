@@ -11,11 +11,12 @@ roasting machine.
 
 ### Main MATLAB script
 `ziegler-nichols.m` is a MatLab / Octave script that automatically computes the
-PID coefficients from a step response log file, in the format explained [here](#Input file format)
+PID coefficients from a step response log file, in the format explained [here](#input-file-format).
+
 It also displays a plot of the step response and the lines used by the
 Ziegler-Nichols PID tuning method to compute T and L.
 
-### Input file format
+#### Input file format
 The step response log file shall be in ASCII. Each line of the file is a sample
 of a logged step response, in the format: `<STEP VALUE> <RESPONSE VALUE>`.
 
