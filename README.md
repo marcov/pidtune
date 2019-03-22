@@ -10,7 +10,7 @@ roasting machine.
 ## Repository content
 
 ### Main MATLAB script
-`ziegler-nichols.m` is a MatLab / Octave script that automatically computes the
+`ziegler_nichols.m` is a MatLab / Octave script that automatically computes the
 PID coefficients from a step response log file, in the format explained [here](#input-file-format).
 
 It also displays a plot of the step response and the lines used by the
@@ -55,6 +55,6 @@ Assuming that you are on a Linux system:
 $ ./filterdata.sh artisan-export.csv step-response.txt
 INFO: found step (Heater) at column 6 and response(BT) at column 4
 
-$ octave --persist ziegler-nichols.m
+$ octave --persist ziegler_nichols.m
 ```
 
